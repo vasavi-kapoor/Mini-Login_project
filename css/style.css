@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.start{
+	width: 45%;
+	background-color: black;
+	border: 1px solid #ccc;
+	margin-top: 15%;
+	margin-left: 27%;
+	height: 160px;
+	/*padding: 4.7%;*/
+	color:white;
+}
+
+.inner{
+	float: left;
+	margin-left: 9%;
+	margin-top: 5%;
+}
+
+.inner label{
+	font-size: 18px;
+}
+
+.inner input {
+	margin-top: 4%;
+	height: 24px;
+	width: 200px;
+	padding: 3px;
+	border: 1px solid grey;
+}
+
+.pass{
+	float: right;
+	margin-right: 18%;
+	margin-top: 5%;
+
+}
+
+.pass label{
+	font-size: 18px;
+}
+
+.pass input{
+	margin-top: 4%;
+	height: 24px;
+	width: 200px;
+	padding: 3px;
+	border: 1px solid grey;
+
+}
+
+.btn{
+	margin-right: 14%;
+}
+
+.btns{
+	float: right;
+	margin-left: 30%;
+	margin-top: 3%;
+	padding: 7px;
+	background-color: #0A3867;
+	color: white;
+
+}
+
+
+.container{
+	width: 20%;
+	height: 50px;
+	background-color: white;
+	border-radius: 20px;
+	color: red;
+	position: fixed;
+	top: 60%;
+	left: 40%;
+	transition: 0.9s;
+	transform: scale(0);
+	overflow: hidden;
+	text-align: center;
+
+}
+
+.container1{
+	width: 20%;
+	height: 50px;
+	background-color: white;
+	border-radius: 20px;
+	color: green;
+	position: fixed;
+	top: 65%;
+	left: 40%;
+	transition: 0.9s;
+	transform: scale(0);
+	overflow: hidden;
+	text-align: center;
+
+}
+
+
+
+
+

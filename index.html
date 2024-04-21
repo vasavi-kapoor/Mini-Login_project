@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Login Page</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="start">
+
+<div class="inner"><label> User Name:</label><br>
+<input type="textbox" placeholder=""></div>
+
+<div class="pass"><label> Password:</label><br>
+<input type="password" placeholder="" id="pass"></div><br><br>
+
+<div class="btn"><button class="btns" onclick="pass()"> Login</button></div>
+
+</div>
+
+
+<div class="container" id="container">
+</div>
+
+<div class="container1" id="container1">
+</div>
+
+
+
+
+<script>
+	
+function pass(){
+	var pass=document.getElementById('pass').value
+	if(pass==="12345"){
+		document.getElementById('container1').innerHTML="Correct Password"
+		document.getElementById('container1').style.transform="scale(1)";
+		document.getElementById('container').style.transform="scale(0)";
+	}
+
+	else{
+		document.getElementById('container').innerHTML="The Password You Entered is Incorrect."
+		document.getElementById('container').style.transform="scale(1)";
+		document.getElementById('container1').style.transform="scale(0)";
+	}
+}
+
+
+</script>
+
+</body>
+</html>
